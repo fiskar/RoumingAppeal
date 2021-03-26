@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RoumingAppeal.Interfaces
 {
-    interface IAppeal
+    public interface IAppeal
     {
         IEnumerable<Appeal> AllAppeals { get; set; }
         Appeal GetObjectAppael(int appealID);

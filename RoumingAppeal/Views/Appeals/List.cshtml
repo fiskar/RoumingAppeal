@@ -1,0 +1,10 @@
+﻿<h1>Все обращения</h1>
+<h3>@Model.currentSource</h3>
+    @{           foreach(var appeal in Model.allAppeals)
+            {
+                <div>
+                        <h2>Телефон абонента: @appeal.ClientPhoneNumber</h2>
+                        <p>Страна нахождения: @appeal.Country</p>
+                </div>
+            }
+    }

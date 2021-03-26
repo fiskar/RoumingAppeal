@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RoumingAppeal.Interfaces
 {
-    interface ISourceAppeal
+    public interface ISourceAppeal
     {
         IEnumerable<SourceAppeal> AllSources { get; }
     }
